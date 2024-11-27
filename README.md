@@ -18,7 +18,7 @@ $ pip install git+https://github.com/openai/CLIP.git
 
 
 ## 🎞 Data Preparation
-1. 학습에 사용할 비디오 파일을 videos 폴더에 위치시킵니다.
+1. 학습에 사용할 비디오 파일[(다운로드 링크)](https://drive.google.com/drive/folders/1__jMs5oIcSVb3thksplfa3b6Olm_6Fo0?usp=sharing)을 videos 폴더에 위치시킵니다.
 ```bash
 $ git clone {}
 $ cd {}
@@ -43,7 +43,16 @@ bash select_few_shot_single_gpu.sh
 
 
 ## 🚀 Running
-Data Preparation을 통해 소량의 학습할 데이터셋을 선정하였다면 아래를 실행하여 학습을 진행할 수 있습니다:
+Data Preparation을 통해 소량의 학습할 데이터셋을 선정하였다면 아래의 순서대로 학습을 진행할 수 있습니다.
+
+1. 먼저 새로운 클래스에 대해 Fine-tuning을 위해 Base checkpoint를 다운로드 하여 준비합니다.
+[ckpt](https://github.com/csuhan/VFA/releases/download/v1.0.0/vfa_r101_c4_8xb4_voc-split1_base-training_iter_18000.pth)를 다운로드하여 base_checkpoint에 위치시킵니다.
+```bash
+$ mkdir base_checkpoint
+# ls base_checkpoint
+# >> vfa_r101_c4_8xb4_voc-split1_base-training_iter_18000.pth
+```
+2. 아래의 bash를 실행하여 학습을 시작합니다.
 
 ```bash
 bash train_single_gpu.sh [결과를 저장할 폴더]
