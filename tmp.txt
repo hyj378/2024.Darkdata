@@ -1,0 +1,10 @@
+/home/yjhwang/workspace/FSOD/VFA1121/data/JB_data/frames/frames_parking_lot/frame_012415.png 0
+/home/yjhwang/workspace/FSOD/VFA1121/data/JB_data/frames/frames_the_entrance/frame_007162.png 0
+/home/yjhwang/workspace/FSOD/VFA1121/data/JB_data/frames/frames_parking_lot/frame_012617.png 0
+/home/yjhwang/workspace/FSOD/VFA1121/data/JB_data/frames/frames_parking_lot/frame_015413.png 0
+/home/yjhwang/workspace/FSOD/VFA1121/data/JB_data/frames/frames_parking_lot/frame_012667.png 0
+/home/yjhwang/workspace/FSOD/VFA1121/data/JB_data/frames/frames_parking_lot/frame_012191.png 0
+/home/yjhwang/workspace/FSOD/VFA1121/data/JB_data/frames/frames_parking_lot/frame_012247.png 0
+/home/yjhwang/workspace/FSOD/VFA1121/data/JB_data/frames/frames_the_entrance/frame_004224.png 0
+/home/yjhwang/workspace/FSOD/VFA1121/data/JB_data/frames/frames_parking_lot/frame_012611.png 0
+/home/yjhwang/workspace/FSOD/VFA1121/data/JB_data/frames/frames_parking_lot/frame_012362.png 0
