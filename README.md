@@ -40,7 +40,7 @@ $ cd ../
 ```bash
 bash select_few_shot_single_gpu.sh
 ```
-
+4. 그 외에 학습에 사용되는 PascalVOC 데이터의 경우 [VFA](https://github.com/csuhan/VFA)와 동일하게 세팅합니다.
 
 ## 🚀 Running
 Data Preparation을 통해 소량의 학습할 데이터셋을 선정하였다면 아래의 순서대로 학습을 진행할 수 있습니다.
