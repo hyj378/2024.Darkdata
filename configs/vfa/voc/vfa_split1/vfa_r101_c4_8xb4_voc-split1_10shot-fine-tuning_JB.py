@@ -74,7 +74,7 @@ checkpoint_config = dict(interval=2000)
 optimizer = dict(lr=0.001)
 lr_config = dict(warmup=None)
 runner = dict(max_iters=2000)
-load_from = 'checkpoint_dir/vfa_r101_c4_8xb4_voc-split1_base-training_iter_18000.pth'
+load_from = 'base_checkpoint/vfa_r101_c4_8xb4_voc-split1_base-training_iter_18000.pth'
 
 # model settings
 model = dict(frozen_parameters=[
