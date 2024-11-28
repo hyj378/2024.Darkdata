@@ -16,7 +16,7 @@ $ pip install ftfy regex tqdm
 $ pip install git+https://github.com/openai/CLIP.git
 ```
 
-mmdet 설치는 아래의 bash를 통해 설치할 수 있습니다:
+mmdetection 모듈의 설치는 아래의 bash를 통해 설치할 수 있습니다:
 mmdetection 폴더 다운로드 [(Google drive)](https://drive.google.com/drive/folders/1ya24mN-6vQuyilZ_L76fWFJ0aL9S3Dgy?usp=sharing)
 ```bash
 # 먼저 위의 링크에서 다운받은 mmdetection 폴더를 본 저장소의 하단에 위치시킵니다.
