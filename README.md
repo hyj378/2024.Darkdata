@@ -16,6 +16,18 @@ $ pip install ftfy regex tqdm
 $ pip install git+https://github.com/openai/CLIP.git
 ```
 
+mmdet 설치는 아래의 bash를 통해 설치할 수 있습니다:
+mmdetection 폴더 다운로드 [(Google drive)](https://drive.google.com/drive/folders/1ya24mN-6vQuyilZ_L76fWFJ0aL9S3Dgy?usp=sharing)
+```bash
+# 먼저 위의 링크에서 다운받은 mmdetection 폴더를 본 저장소의 하단에 위치시킵니다.
+# 이후 아래를 실행하여 설치를 진행합니다.
+#├── 2024.Project.Darkdata-demo <- this repo
+#   └── mmdetection
+#      └──  . . .
+$ cd mmdetection
+$ pip install -r requirements/build.txt
+$ pip install -v -e .
+```
 
 ## 🎞 Data Preparation
 1. 학습에 사용할 비디오 파일[(다운로드 링크)](https://drive.google.com/drive/folders/1__jMs5oIcSVb3thksplfa3b6Olm_6Fo0?usp=sharing)을 videos 폴더에 위치시킵니다.
@@ -23,7 +35,7 @@ $ pip install git+https://github.com/openai/CLIP.git
 $ git clone {}
 $ cd {}
 $ mkdir videos
-#├── 2024.Darkdata <- this repo
+#├── 2024.Project.Darkdata-demo <- this repo
 #   └── videos
 #      └── parking_lot.avi
 #      ├── static_pressure_machine.avi
